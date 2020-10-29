@@ -1,0 +1,52 @@
+Link for covid Survey: 
+1. Estimation of COVID-19 under-reporting in Brazilian States through SARI, Cornell 2020: 
+https://arxiv.org/abs/2006.12759
+https://www.researchsquare.com/article/rs-50075/v1
+
+2.Correcting under-reported COVID-19 case numbers: estimating the true scale of the pandemic, Yale 2020:
+https://www.medrxiv.org/content/10.1101/2020.03.14.20036178v2
+
+3.Reporting criteria in Taiwan: 
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7267588/
+
+4.Evaluating the massive underreporting and undertesting of COVID-19 cases in multiple global epicenters, PMC 2020: 
+https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7275155/
+
+5.[Xác Suất] Mẫu thống kê và ước lượng tham số
+https://dominhhai.github.io/vi/2017/10/sampling-parameters-estimation/
+
+6. Report Influenza: 
+https://apps.who.int/flumart/Default?ReportNo=12
+
+7.Estimation of covid cases
+https://www.researchgate.net/publication/341709272_Estimation_of_Under-Reporting_in_CoVID-19_Data_in_english/link/5ecfd0aa299bf1c67d26afcf/download
+
+8.Under-reported data analysis with INAR-hidden Markov chains
+https://pubmed.ncbi.nlm.nih.gov/27396957/
+
+9.Accounting for Underreporting in Mathematical Modeling of Transmission and Control of COVID-19 in Iran
+https://www.frontiersin.org/articles/10.3389/fphy.2020.00289/full
+
+10. Modelling under-reported covid 19 counts, 2020 - Baron Brothers: 
+https://github.com/mishabaron/SICROUD/blob/master/SICROUD%20slides%20for%20DSCC-19.pdf
+
+- Reverse Latent Autoregressive Model - HMM (target/hidden states -> observed states %)
+- Not enough dataset for the moment: 
+	+ 1 Aussie Dataset => national population of aussie (birthrate - deaththrate)
+	+ 1 Aussie Hospital Admission => identify a more precise of obsersed states => patient records in Aussie hospital (influenza, psneumia, ...)
+-> Run diff models, compare similarities of each model's result to decide superior one
+Should not minimize the model outcome 
+- ABS(deathrate - 2019) => 2020 => difference can bring out the influence of covid => identify the natural state of diseases 
+
+Consider under-reported cases => deathtoll (Hard to relate deathtoll to covid under-reporting cases since peer-reviewed parameters are not specfically suitable for respecitve treatment, 
+
+Apply the model on (supposed Dengue/) to see the conf_int() before implementing to covid cases (suggested for a more well-reported viral disease)- 
+
+- Diagrams
+
+- Aim to generate estimations and allow for improvement
+- Improve existing Model => Compare SIR infection in Australia from seasonal periods (autogressive non-stationary (should be ARMA?) <= specified later (cant be ARMI) 
+
+
+
+
